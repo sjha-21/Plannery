@@ -1,14 +1,14 @@
 import React from "react";
-import div1 from "../assets/div1.jpg";
-import "../styles/Div1.css";
+import div3 from "../assets/div3.jpg";
+import "../styles/Div3.css";
 import { Button, Space } from "antd";
 
-const Div1 = () => {
+const Div3 = () => {
   return (
-    <div className="imagediv1">
-      <img src={div1} alt="Image" className="image1" />
+    <div className="imagediv3">
+      <img src={div3} alt="Image" className="image3" />
 
-      <div className="textdiv1">
+      <div className="textdiv3">
         <h3>
           Effortlessly generate, customize, and save comprehensive lesson plans
           aligned with specific criteria, enhancing teaching efficiency and
@@ -23,4 +23,4 @@ const Div1 = () => {
   );
 };
 
-export default Div1;
+export default Div3;
