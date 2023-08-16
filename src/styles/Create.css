@@ -1,4 +1,3 @@
-
 .plannery-form {
         width: 500px;
         margin: 0 auto;
@@ -7,26 +6,51 @@
         border-radius:35px;
         margin-top: 35px;
         margin-left: 10px;
-        background-color: #f3daeea0;
+        background-color: #f4f1f4a0;
         
  }
 .planery-form{
-
         display: flex;
 }   
-/* .content-gpt{
+.content-gpt{
     border: 1px solid #ccc;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: white;
     margin-top: 20px;
-    margin-left: 40px;
-    width: 500px;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: white;
+    border: 10px solid #af53a5;
+        
+  }
+  .content-gpt p{
+    width:800px;
+  }
+  .content-gpt-button{
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
     
-  } */
+  }
+  .content-gpt-button Button{
+    bottom:0;
+  }
   .save-btn{
     background-color: #af7caa;
   }
 .formgenerate-btn{
     background-color: #af7caa;
     margin-right: 28px;
+}
+.download-rgt-btn{
+  background-color: #af7caa;
+  color: white;
+  
+}
+.save-rgt-btn{
+  background-color: #af7caa;
+  color: white;
+}
+.heading{
+  color: #ab1ea0;
 }

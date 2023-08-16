@@ -66,17 +66,31 @@ const Create = () => {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <Form.Item style={{ paddingRight: "250px" }}>
-            <Button  className="save-btn"type="primary">Save</Button>
+            <Button className="save-btn" type="primary">
+              Save
+            </Button>
           </Form.Item>
           <Form.Item>
-            <Button type="primary" className="formgenerate-btn">Generate</Button>
+            <Button type="primary" className="formgenerate-btn">
+              Generate
+            </Button>
           </Form.Item>
         </div>
       </Form>
       <div className="content-gpt">
+        <h1 className="heading">PHOTOSYNTHESIS</h1>
         <p>
-         
+        photosynthesis, the process by which green plants and certain other organisms transform light energy into chemical energy.
+        
+         During photosynthesis in green plants, light energy is captured and used to convert water, carbon dioxide, and minerals into oxygen and energy-rich organic compounds.
+
+It would be impossible to overestimate the importance of photosynthesis in the maintenance of life on Earth. If photosynthesis ceased, there would soon be little food or other organic matter on Earth. Most organisms would disappear, and in time Earth’s atmosphere would become nearly devoid of gaseous oxygen. The only organisms able to exist under such conditions would be the chemosynthetic bacteria, 
+which can utilize the chemical energy of certain inorganic compounds and thus are not dependent on the conversion of light energy.
         </p>
+        <div className="content-gpt-button">
+          <Button className="save-rgt-btn">Save</Button>
+          <Button className="download-rgt-btn">Download</Button>
+        </div>
       </div>
     </div>
   );
