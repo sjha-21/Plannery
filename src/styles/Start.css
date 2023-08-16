@@ -1,0 +1,53 @@
+.plannery-start {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-style:italic;
+   
+}
+
+.para{
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFF3DA;
+    border: 1px solid purple;
+    border-radius: 20px;
+   
+}
+.text P{
+   
+    display: inline-block;
+    transform-origin: 50% 50%;
+    animation: wave 2.5s infinite;
+    color: rgb(96, 42, 147);
+    font-size: 25px;
+    padding-right:-3%;
+    text-align: center;
+    padding-top: 70px;
+    
+    
+    
+    
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .text {
+    width: 90%;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FAF3F0;
+  }
+  
+  
+  
+  
